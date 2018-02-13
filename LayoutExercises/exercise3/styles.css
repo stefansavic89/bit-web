@@ -19,7 +19,7 @@ ul {
     margin-bottom: 3px;
 }
 
-#container {
+main {
     width: 80%;
     margin: auto;
     position: relative;
@@ -31,10 +31,10 @@ ul {
     background-image: url(https://udemy-images.udemy.com/course/750x422/505208_2307_4.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
 
-.box {
+article {
     box-sizing: border-box;
     width: 32.8%;
     display: inline-block;
@@ -42,9 +42,10 @@ ul {
     padding-left: 5px;
 }
 
-.box img {
+article img {
     width: 100%;
 }
+
 
 /* .relative {
 
@@ -55,7 +56,7 @@ ul {
 
 } */
 
-#spec a{
+#spec a {
     display: block;
     text-decoration: none;
     border-bottom: 1px solid rgb(68, 57, 223);
@@ -69,9 +70,9 @@ ul {
     height: 375px;
     font-size: 24px;
     line-height: 88px;
-    
 }
-#footer {
+
+footer {
     box-sizing: border-box;
     width: 100%;
     background-color: rgb(68, 57, 223);
